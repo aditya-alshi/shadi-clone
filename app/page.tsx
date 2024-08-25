@@ -8,7 +8,7 @@ const formSchema = z.object({
     mother_tongue : z.string(),
 })
 
-export const person = async (formData: FormData) => {
+async function person(formData: FormData) {
   'use server'
   const data = Object.fromEntries(formData.entries());
   console.log(data);
