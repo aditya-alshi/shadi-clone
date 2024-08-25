@@ -39,7 +39,7 @@ export default async function Home() {
   const getAll = await prisma.search.findMany()
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <form className="flex justify-around w-4/5 p-2 shadow-sm" action={person}>
+     <form className="flex justify-around w-4/5 p-2 shadow-sm" action={(formdata) => person(formdata)}>
       <p>
     Age: <br />
     <select name="age" id="age">
