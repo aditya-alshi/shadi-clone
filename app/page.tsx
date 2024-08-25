@@ -104,7 +104,7 @@ export default async function Home() {
       <option value="Buddhism">Buddhism</option>
       <option value="Sikhism">Sikhism</option>
       <option value="Judaism">Judaism</option>
-      <option value="Bahá'í">Bahá'í</option>
+      <option value="Bahá'í">Bahá&apos;í</option>
       <option value="Jainism">Jainism</option>
       <option value="Shinto">Shinto</option>
       <option value="Taoism">Taoism</option>
